@@ -15,7 +15,7 @@
             <b-button v-if="filter_data.toString() === '' && !user_exist && bc.length == 12" variant="success" href="/newbaby">Add New baby</b-button>
          </b-form>
          <div id="allrecord" v-if="bc.length == 12 && user_exist">
-            <b-table sticky-head striped :items="data"></b-table> 
+            <b-table sticky-head striped :items="filter_data"></b-table> 
          </div>
       </div>
    </div>
