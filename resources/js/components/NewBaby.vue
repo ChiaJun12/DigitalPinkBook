@@ -3,7 +3,7 @@
       <b-navbar toggleable="lg" type="dark" variant="dark">
          <b-navbar-brand href="#">MYHackathon</b-navbar-brand>
          <b-navbar-nav class="ml-auto">
-            <b-nav-item href="previouscheck">All Records</b-nav-item>
+            <b-nav-item href="/previouscheck">All Records</b-nav-item>
          </b-navbar-nav>
       </b-navbar>
       <div class="container" id="new_baby_form">
